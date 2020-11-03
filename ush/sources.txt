@@ -1,0 +1,3 @@
+http://codewiki.wikidot.com/c:system-calls:stat
+man pages
+ctrl-x-a = tui enable

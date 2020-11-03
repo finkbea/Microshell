@@ -1,0 +1,37 @@
+Script started on Wed 22 May 2019 08:06:46 AM PDT
+finkbea@CF167-08:~/CS347/gitlab/csci347_s19/ush$ ec[K[Kmake a[K&& ./ush
+make: 'ush' is up to date.
+% echo $?
+0
+% envset d 123
+% echo $?
+0
+% echo ${DH}
+
+% echo    echo $?
+0
+% echo ${d}
+123
+% echo $?
+0
+% envset 3
+incorrect number of arguments, follow the format: envset name value
+% echo $?
+1
+% echo $(ls)
+a1~ a1-s2~ builtin.c builtin.o core defn.h expand.c expand.o globalv.h Makefile myTest4 sources.txt Testing typescript ush ush.c ush.o 
+% cd sadfasfd
+input a correct directory
+% echo $?
+1
+% echo $($(ls)) #this is correct
+exec: No such file or directory
+
+% echo $(echo $(ls))
+a1~ a1-s2~ builtin.c builtin.o core defn.h expand.c expand.o globalv.h Makefile myTest4 sources.txt Testing typescript ush ush.c ush.o 
+% #My pipelines aren't quite working, I've been up all night and they s just won't output anything. , but  I t    I think most of al  the code is in place ab nd it's probably somethign really         ng really dumn b preventing them from working.
+% ^C^C^C
+% finkbea@CF167-08:~/CS347/gitlab/csci347_s19/ush$ exit
+exit
+
+Script done on Wed 22 May 2019 08:09:55 AM PDT

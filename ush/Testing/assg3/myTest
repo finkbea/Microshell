@@ -1,0 +1,52 @@
+Script started on Mon 06 May 2019 10:59:26 PM PDT
+finkbea@cf405-24:~/CS347/gitlab/csci347_s19/ush$ ./ush showshift a b c d e f
+showshift is named showshift
+Number of arguments is 7.
+Argument 1 is a.
+Argument 2 is b.
+Argument 3 is c.
+Argument 4 is d.
+Number of arguments is 4.
+Argument 1 is d.
+Argument 2 is e.
+Argument 3 is f.
+Argument 4 is .
+Number of arguments is 5.
+Argument 1 is c.
+Number of arguments is 7.
+Now a is Argument 1.
+finkbea@cf405-24:~/CS347/gitlab/csci347_s19/ush$ ./ush test a b [K[K[K[K1 2 3 4 5 67 [K[K 7 8 9 10  11 12 13 14
+Name of script: test
+Number of args: 15
+Arguments: A1: 1 | A2: 2 | A3: 3 | A4: 4 | A5: 5 | A6: 6 | A7: 7 | A7: 7 | A8: 8 | A9: 9 | A10: 10 | A11: 11 | A12: 12 | A13: 13 | A14: 14
+Name of script: test
+Number of args: 12
+Arguments: A1: 4 | A2: 5 | A3: 6 | A4: 7 | A5: 8 | A6: 9 | A7: 10 | A7: 10 | A8: 11 | A9: 12 | A10: 13 | A11: 14 | A12: | A13: | A14: 
+Name of script: test
+Number of args: 8
+Arguments: A1: 8 | A2: 9 | A3: 10 | A4: 11 | A5: 12 | A6: 13 | A7: 14 | A7: 14 | A8: | A9: | A10: | A11: | A12: | A13: | A14: 
+Name of script: test
+Number of args: 15
+Arguments: A1: 1 | A2: 2 | A3: 3 | A4: 4 | A5: 5 | A6: 6 | A7: 7 | A7: 7 | A8: 8 | A9: 9 | A10: 10 | A11: 11 | A12: 12 | A13: 13 | A14: 14
+Cannot shift more than the number of arguments
+Name of script: test
+Number of args: 15
+Arguments: A1: 1 | A2: 2 | A3: 3 | A4: 4 | A5: 5 | A6: 6 | A7: 7 | A7: 7 | A8: 8 | A9: 9 | A10: 10 | A11: 11 | A12: 12 | A13: 13 | A14: 14
+Name of script: test
+Number of args: 8
+Arguments: A1: 8 | A2: 9 | A3: 10 | A4: 11 | A5: 12 | A6: 13 | A7: 14 | A7: 14 | A8: | A9: | A10: | A11: | A12: | A13: | A14: 
+Name of script: test
+Number of args: 10
+Arguments: A1: 6 | A2: 7 | A3: 8 | A4: 9 | A5: 10 | A6: 11 | A7: 12 | A7: 12 | A8: 13 | A9: 14 | A10: | A11: | A12: | A13: | A14: 
+finkbea@cf405-24:~/CS347/gitlab/csci347_s19/ush$ ./ush
+% $0
+% echo $0
+./ush
+% #its a comment
+% echo $1 #comments 
+
+% ^C
+finkbea@cf405-24:~/CS347/gitlab/csci347_s19/ush$ exit
+exit
+
+Script done on Mon 06 May 2019 11:01:15 PM PDT

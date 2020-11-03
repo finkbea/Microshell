@@ -1,0 +1,19 @@
+
+echo $?
+envset DH 41312
+echo $?
+echo ${DH}
+echo $?
+envset 3
+echo $?
+ls
+cd Testing
+echo $?
+ls
+cd sdfsdf
+echo $?
+echo $(ls -ld $(dirname $(pwd)))
+echo $($(ls)) #this is the correct result(same as yours)
+echo $(echo $(ls))
+finger | tail -n +2 | cut -c1-8 | uniq | sort
+echo hello | cut -c1-3

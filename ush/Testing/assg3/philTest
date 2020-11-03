@@ -1,0 +1,150 @@
+Script started on Mon 06 May 2019 10:34:58 PM PDT
+finkbea@cf405-24:~$ cd /home/phil/public/csci347/testa3
+finkbea@cf405-24:/home/phil/public/csci347/testa3$ ./try
+mkdir: cannot create directory ‘/home/finkbea/347_test_a3’: File exists
+~/347_test_a3 exists, use it anyway? (y/n) y n
+exiting ...
+finkbea@cf405-24:/home/phil/public/csci347/testa3$ ./try
+Cloning into 'csci347_s19'...
+remote: Enumerating objects: 187, done.[K
+remote: Counting objects:   0% (1/187)   [Kremote: Counting objects:   1% (2/187)   [Kremote: Counting objects:   2% (4/187)   [Kremote: Counting objects:   3% (6/187)   [Kremote: Counting objects:   4% (8/187)   [Kremote: Counting objects:   5% (10/187)   [Kremote: Counting objects:   6% (12/187)   [Kremote: Counting objects:   7% (14/187)   [Kremote: Counting objects:   8% (15/187)   [Kremote: Counting objects:   9% (17/187)   [Kremote: Counting objects:  10% (19/187)   [Kremote: Counting objects:  11% (21/187)   [Kremote: Counting objects:  12% (23/187)   [Kremote: Counting objects:  13% (25/187)   [Kremote: Counting objects:  14% (27/187)   [Kremote: Counting objects:  15% (29/187)   [Kremote: Counting objects:  16% (30/187)   [Kremote: Counting objects:  17% (32/187)   [Kremote: Counting objects:  18% (34/187)   [Kremote: Counting objects:  19% (36/187)   [Kremote: Counting objects:  20% (38/187)   [Kremote: Counting objects:  21% (40/187)   [Kremote: Counting objects:  22% (42/187)   [Kremote: Counting objects:  23% (44/187)   [Kremote: Counting objects:  24% (45/187)   [Kremote: Counting objects:  25% (47/187)   [Kremote: Counting objects:  26% (49/187)   [Kremote: Counting objects:  27% (51/187)   [Kremote: Counting objects:  28% (53/187)   [Kremote: Counting objects:  29% (55/187)   [Kremote: Counting objects:  30% (57/187)   [Kremote: Counting objects:  31% (58/187)   [Kremote: Counting objects:  32% (60/187)   [Kremote: Counting objects:  33% (62/187)   [Kremote: Counting objects:  34% (64/187)   [Kremote: Counting objects:  35% (66/187)   [Kremote: Counting objects:  36% (68/187)   [Kremote: Counting objects:  37% (70/187)   [Kremote: Counting objects:  38% (72/187)   [Kremote: Counting objects:  39% (73/187)   [Kremote: Counting objects:  40% (75/187)   [Kremote: Counting objects:  41% (77/187)   [Kremote: Counting objects:  42% (79/187)   [Kremote: Counting objects:  43% (81/187)   [Kremote: Counting objects:  44% (83/187)   [Kremote: Counting objects:  45% (85/187)   [Kremote: Counting objects:  46% (87/187)   [Kremote: Counting objects:  47% (88/187)   [Kremote: Counting objects:  48% (90/187)   [Kremote: Counting objects:  49% (92/187)   [Kremote: Counting objects:  50% (94/187)   [Kremote: Counting objects:  51% (96/187)   [Kremote: Counting objects:  52% (98/187)   [Kremote: Counting objects:  53% (100/187)   [Kremote: Counting objects:  54% (101/187)   [Kremote: Counting objects:  55% (103/187)   [Kremote: Counting objects:  56% (105/187)   [Kremote: Counting objects:  57% (107/187)   [Kremote: Counting objects:  58% (109/187)   [Kremote: Counting objects:  59% (111/187)   [Kremote: Counting objects:  60% (113/187)   [Kremote: Counting objects:  61% (115/187)   [Kremote: Counting objects:  62% (116/187)   [Kremote: Counting objects:  63% (118/187)   [Kremote: Counting objects:  64% (120/187)   [Kremote: Counting objects:  65% (122/187)   [Kremote: Counting objects:  66% (124/187)   [Kremote: Counting objects:  67% (126/187)   [Kremote: Counting objects:  68% (128/187)   [Kremote: Counting objects:  69% (130/187)   [Kremote: Counting objects:  70% (131/187)   [Kremote: Counting objects:  71% (133/187)   [Kremote: Counting objects:  72% (135/187)   [Kremote: Counting objects:  73% (137/187)   [Kremote: Counting objects:  74% (139/187)   [Kremote: Counting objects:  75% (141/187)   [Kremote: Counting objects:  76% (143/187)   [Kremote: Counting objects:  77% (144/187)   [Kremote: Counting objects:  78% (146/187)   [Kremote: Counting objects:  79% (148/187)   [Kremote: Counting objects:  80% (150/187)   [Kremote: Counting objects:  81% (152/187)   [Kremote: Counting objects:  82% (154/187)   [Kremote: Counting objects:  83% (156/187)   [Kremote: Counting objects:  84% (158/187)   [Kremote: Counting objects:  85% (159/187)   [Kremote: Counting objects:  86% (161/187)   [Kremote: Counting objects:  87% (163/187)   [Kremote: Counting objects:  88% (165/187)   [Kremote: Counting objects:  89% (167/187)   [Kremote: Counting objects:  90% (169/187)   [Kremote: Counting objects:  91% (171/187)   [Kremote: Counting objects:  92% (173/187)   [Kremote: Counting objects:  93% (174/187)   [Kremote: Counting objects:  94% (176/187)   [Kremote: Counting objects:  95% (178/187)   [Kremote: Counting objects:  96% (180/187)   [Kremote: Counting objects:  97% (182/187)   [Kremote: Counting objects:  98% (184/187)   [Kremote: Counting objects:  99% (186/187)   [Kremote: Counting objects: 100% (187/187)   [Kremote: Counting objects: 100% (187/187), done.[K
+remote: Compressing objects:   0% (1/119)   [Kremote: Compressing objects:   1% (2/119)   [Kremote: Compressing objects:   2% (3/119)   [Kremote: Compressing objects:   3% (4/119)   [Kremote: Compressing objects:   4% (5/119)   [Kremote: Compressing objects:   5% (6/119)   [Kremote: Compressing objects:   6% (8/119)   [Kremote: Compressing objects:   7% (9/119)   [Kremote: Compressing objects:   8% (10/119)   [Kremote: Compressing objects:   9% (11/119)   [Kremote: Compressing objects:  10% (12/119)   [Kremote: Compressing objects:  11% (14/119)   [Kremote: Compressing objects:  12% (15/119)   [Kremote: Compressing objects:  13% (16/119)   [Kremote: Compressing objects:  14% (17/119)   [Kremote: Compressing objects:  15% (18/119)   [Kremote: Compressing objects:  16% (20/119)   [Kremote: Compressing objects:  17% (21/119)   [Kremote: Compressing objects:  18% (22/119)   [Kremote: Compressing objects:  19% (23/119)   [Kremote: Compressing objects:  20% (24/119)   [Kremote: Compressing objects:  21% (25/119)   [Kremote: Compressing objects:  22% (27/119)   [Kremote: Compressing objects:  23% (28/119)   [Kremote: Compressing objects:  24% (29/119)   [Kremote: Compressing objects:  25% (30/119)   [Kremote: Compressing objects:  26% (31/119)   [Kremote: Compressing objects:  27% (33/119)   [Kremote: Compressing objects:  28% (34/119)   [Kremote: Compressing objects:  29% (35/119)   [Kremote: Compressing objects:  30% (36/119)   [Kremote: Compressing objects:  31% (37/119)   [Kremote: Compressing objects:  32% (39/119)   [Kremote: Compressing objects:  33% (40/119)   [Kremote: Compressing objects:  34% (41/119)   [Kremote: Compressing objects:  35% (42/119)   [Kremote: Compressing objects:  36% (43/119)   [Kremote: Compressing objects:  37% (45/119)   [Kremote: Compressing objects:  38% (46/119)   [Kremote: Compressing objects:  39% (47/119)   [Kremote: Compressing objects:  40% (48/119)   [Kremote: Compressing objects:  41% (49/119)   [Kremote: Compressing objects:  42% (50/119)   [Kremote: Compressing objects:  43% (52/119)   [Kremote: Compressing objects:  44% (53/119)   [Kremote: Compressing objects:  45% (54/119)   [Kremote: Compressing objects:  46% (55/119)   [Kremote: Compressing objects:  47% (56/119)   [Kremote: Compressing objects:  48% (58/119)   [Kremote: Compressing objects:  49% (59/119)   [Kremote: Compressing objects:  50% (60/119)   [Kremote: Compressing objects:  51% (61/119)   [Kremote: Compressing objects:  52% (62/119)   [Kremote: Compressing objects:  53% (64/119)   [Kremote: Compressing objects:  54% (65/119)   [Kremote: Compressing objects:  55% (66/119)   [Kremote: Compressing objects:  56% (67/119)   [Kremote: Compressing objects:  57% (68/119)   [Kremote: Compressing objects:  58% (70/119)   [Kremote: Compressing objects:  59% (71/119)   [Kremote: Compressing objects:  60% (72/119)   [Kremote: Compressing objects:  61% (73/119)   [Kremote: Compressing objects:  62% (74/119)   [Kremote: Compressing objects:  63% (75/119)   [Kremote: Compressing objects:  64% (77/119)   [Kremote: Compressing objects:  65% (78/119)   [Kremote: Compressing objects:  66% (79/119)   [Kremote: Compressing objects:  67% (80/119)   [Kremote: Compressing objects:  68% (81/119)   [Kremote: Compressing objects:  69% (83/119)   [Kremote: Compressing objects:  70% (84/119)   [Kremote: Compressing objects:  71% (85/119)   [Kremote: Compressing objects:  72% (86/119)   [Kremote: Compressing objects:  73% (87/119)   [Kremote: Compressing objects:  74% (89/119)   [Kremote: Compressing objects:  75% (90/119)   [Kremote: Compressing objects:  76% (91/119)   [Kremote: Compressing objects:  77% (92/119)   [Kremote: Compressing objects:  78% (93/119)   [Kremote: Compressing objects:  79% (95/119)   [Kremote: Compressing objects:  80% (96/119)   [Kremote: Compressing objects:  81% (97/119)   [Kremote: Compressing objects:  82% (98/119)   [Kremote: Compressing objects:  83% (99/119)   [Kremote: Compressing objects:  84% (100/119)   [Kremote: Compressing objects:  85% (102/119)   [Kremote: Compressing objects:  86% (103/119)   [Kremote: Compressing objects:  87% (104/119)   [Kremote: Compressing objects:  88% (105/119)   [Kremote: Compressing objects:  89% (106/119)   [Kremote: Compressing objects:  90% (108/119)   [Kremote: Compressing objects:  91% (109/119)   [Kremote: Compressing objects:  92% (110/119)   [Kremote: Compressing objects:  93% (111/119)   [Kremote: Compressing objects:  94% (112/119)   [Kremote: Compressing objects:  95% (114/119)   [Kremote: Compressing objects:  96% (115/119)   [Kremote: Compressing objects:  97% (116/119)   [Kremote: Compressing objects:  98% (117/119)   [Kremote: Compressing objects:  99% (118/119)   [Kremote: Compressing objects: 100% (119/119)   [Kremote: Compressing objects: 100% (119/119), done.[K
+Receiving objects:   0% (1/187)   Receiving objects:   1% (2/187)   Receiving objects:   2% (4/187)   Receiving objects:   3% (6/187)   Receiving objects:   4% (8/187)   Receiving objects:   5% (10/187)   Receiving objects:   6% (12/187)   Receiving objects:   7% (14/187)   Receiving objects:   8% (15/187)   Receiving objects:   9% (17/187)   Receiving objects:  10% (19/187)   Receiving objects:  11% (21/187)   Receiving objects:  12% (23/187)   Receiving objects:  13% (25/187)   Receiving objects:  14% (27/187)   Receiving objects:  15% (29/187)   Receiving objects:  16% (30/187)   Receiving objects:  17% (32/187)   Receiving objects:  18% (34/187)   Receiving objects:  19% (36/187)   Receiving objects:  20% (38/187)   Receiving objects:  21% (40/187)   Receiving objects:  22% (42/187)   Receiving objects:  23% (44/187)   Receiving objects:  24% (45/187)   Receiving objects:  25% (47/187)   Receiving objects:  26% (49/187)   Receiving objects:  27% (51/187)   Receiving objects:  28% (53/187)   Receiving objects:  29% (55/187)   Receiving objects:  30% (57/187)   Receiving objects:  31% (58/187)   Receiving objects:  32% (60/187)   Receiving objects:  33% (62/187)   Receiving objects:  34% (64/187)   Receiving objects:  35% (66/187)   Receiving objects:  36% (68/187)   Receiving objects:  37% (70/187)   Receiving objects:  38% (72/187)   Receiving objects:  39% (73/187)   Receiving objects:  40% (75/187)   Receiving objects:  41% (77/187)   Receiving objects:  42% (79/187)   Receiving objects:  43% (81/187)   Receiving objects:  44% (83/187)   Receiving objects:  45% (85/187)   Receiving objects:  46% (87/187)   Receiving objects:  47% (88/187)   Receiving objects:  48% (90/187)   Receiving objects:  49% (92/187)   Receiving objects:  50% (94/187)   Receiving objects:  51% (96/187)   Receiving objects:  52% (98/187)   Receiving objects:  53% (100/187)   Receiving objects:  54% (101/187)   remote: Total 187 (delta 98), reused 121 (delta 59)[K
+Receiving objects:  55% (103/187)   Receiving objects:  56% (105/187)   Receiving objects:  57% (107/187)   Receiving objects:  58% (109/187)   Receiving objects:  59% (111/187)   Receiving objects:  60% (113/187)   Receiving objects:  61% (115/187)   Receiving objects:  62% (116/187)   Receiving objects:  63% (118/187)   Receiving objects:  64% (120/187)   Receiving objects:  65% (122/187)   Receiving objects:  66% (124/187)   Receiving objects:  67% (126/187)   Receiving objects:  68% (128/187)   Receiving objects:  69% (130/187)   Receiving objects:  70% (131/187)   Receiving objects:  71% (133/187)   Receiving objects:  72% (135/187)   Receiving objects:  73% (137/187)   Receiving objects:  74% (139/187)   Receiving objects:  75% (141/187)   Receiving objects:  76% (143/187)   Receiving objects:  77% (144/187)   Receiving objects:  78% (146/187)   Receiving objects:  79% (148/187)   Receiving objects:  80% (150/187)   Receiving objects:  81% (152/187)   Receiving objects:  82% (154/187)   Receiving objects:  83% (156/187)   Receiving objects:  84% (158/187)   Receiving objects:  85% (159/187)   Receiving objects:  86% (161/187)   Receiving objects:  87% (163/187)   Receiving objects:  88% (165/187)   Receiving objects:  89% (167/187)   Receiving objects:  90% (169/187)   Receiving objects:  91% (171/187)   Receiving objects:  92% (173/187)   Receiving objects:  93% (174/187)   Receiving objects:  94% (176/187)   Receiving objects:  95% (178/187)   Receiving objects:  96% (180/187)   Receiving objects:  97% (182/187)   Receiving objects:  98% (184/187)   Receiving objects:  99% (186/187)   Receiving objects: 100% (187/187)   Receiving objects: 100% (187/187), 157.44 KiB | 0 bytes/s, done.
+Resolving deltas:   0% (0/98)   Resolving deltas:   6% (6/98)   Resolving deltas:  13% (13/98)   Resolving deltas:  26% (26/98)   Resolving deltas:  32% (32/98)   Resolving deltas:  34% (34/98)   Resolving deltas:  36% (36/98)   Resolving deltas:  37% (37/98)   Resolving deltas:  61% (60/98)   Resolving deltas:  65% (64/98)   Resolving deltas:  68% (67/98)   Resolving deltas:  83% (82/98)   Resolving deltas:  92% (91/98)   Resolving deltas:  93% (92/98)   Resolving deltas:  96% (95/98)   Resolving deltas: 100% (98/98)   Resolving deltas: 100% (98/98), done.
+Checking connectivity... done.
+error: pathspec 'a3' did not match any file(s) known to git.
+Grading master branch.
+Making REF
+gcc -c -o expand.o expand.c -g -Wall 
+gcc -c -o builtin.o builtin.c -g -Wall 
+gcc -g -Wall  -o ush ush.o expand.o builtin.o
+
+run tests? y
+Running ush
+
+Files REF and OUT differ
+Script output different!
+Diffs: 
+--- REF	2019-05-06 22:35:30.209650000 -0700
++++ OUT	2019-05-06 22:35:31.613324000 -0700
+@@ -1,5 +1,5 @@
+ 
+-This test script is run with 1 args, script is ./ush, should be interactive.
++This test script is run with 0 args, script is ./ush, should be interactive.
+ Testing args!
+ Script name is /home/phil/public/csci347/testa3/scr1.
+ There are 4 number of parameters.
+@@ -32,25 +32,18 @@
+ Argument 13 is 'This_is_thirteen!'.
+ Testing Wildcards and sstat ...
+ 
+-1abc 2acc 3.h 3adc 4a?c a.c aaaaaaa.c b.c c..c d.cc e.b f.q
+-d.cc
++ 1abc 2acc 3.h 3adc 4a?c a.c aaaaaaa.c b.c c..c d.cc e.b f.q
++ c d.cc
+ a*
+-*a
+-1abc 2acc 3adc 4a?c a.c aaaaaaa.c b.c c..c d.cc
+-c..c
+-3.h
+-aaaaaaa.c
++a
++1abc 2acc 3adc 4a?c a.c aaaaaaa.c b.c c c..c d.cc
++c c..c
++3.h h
++aaaaaaa.c c
+ *.c
+-4a?c
+-a.c aaaaaaa.c
++4a?c c
++a.c aaaaaaa.c c
+ 
+ Now for sstat
+ 
+-d.cc finkbea grp.csci.Students -rw--w---x 1 0 Sun May  1 00:00:00 2005
+-f.q finkbea grp.csci.Students -rw--w---x 1 0 Sun May  1 00:00:00 2005
+-/home/phil/zzz.file 333 333 -rwx------ 1 0 Mon Oct 31 15:46:23 2011
+-a.c finkbea grp.csci.Students -rw--w---x 1 0 Sun May  1 00:00:00 2005
+-b.c finkbea grp.csci.Students -rw--w---x 1 0 Sun May  1 00:00:00 2005
+-d.cc finkbea grp.csci.Students -rw--w---x 1 0 Sun May  1 00:00:00 2005
+-End testing Wildcards and sstat ...
+ Done with regular tests
+
+See Out file? y
+Out is: -------
+
+This test script is run with 0 args, script is ./ush, should be interactive.
+Testing args!
+Script name is /home/phil/public/csci347/testa3/scr1.
+There are 4 number of parameters.
+Dollar 1 is 'with', 2 is 'some'.
+'/home/phil/public/csci347/testa3/scr1' is the script name.
+Testing args!
+Script name is /home/phil/public/csci347/testa3/scr1.
+There are 2 number of parameters.
+Dollar 1 is 'with_one_arg', 2 is ''.
+'/home/phil/public/csci347/testa3/scr1' is the script name.
+Testing shift ...
+Script name is /home/phil/public/csci347/testa3/scr2.
+There are 11 number of parameters.
+Dollar 1-4 is arg1, arg2, arg3, and arg4.
+Shifting 1
+There are 10 number of parameters.
+Dollar 1-4 is arg2, arg3, arg4, and arg5.
+Shifting 2
+There are 8 number of parameters.
+Dollar 1-4 is arg4, arg5, arg6, and arg7.
+Shifting 4
+There are 4 number of parameters.
+There are 5 number of parameters.
+Dollar 1-2 is arg7 and arg8.
+There are 7 number of parameters.
+Dollar 1-4 is arg5, arg6, arg7, and arg8.
+There are 11 number of parameters.
+Dollar 1-4 is arg1, arg2, arg3, and arg4.
+There are 21 arguments.
+Argument 13 is 'This_is_thirteen!'.
+Testing Wildcards and sstat ...
+
+ 1abc 2acc 3.h 3adc 4a?c a.c aaaaaaa.c b.c c..c d.cc e.b f.q
+ c d.cc
+a*
+a
+1abc 2acc 3adc 4a?c a.c aaaaaaa.c b.c c c..c d.cc
+c c..c
+3.h h
+aaaaaaa.c c
+*.c
+4a?c c
+a.c aaaaaaa.c c
+
+Now for sstat
+
+Done with regular tests
+---------------
+Exit values correct
+
+----- ERRS -----
+% % % % % % % % % % % % % % % % % % 
+----------------
+
+Run error tests? y
+Testing errors with /home/phil/public/csci347/testa3/ush.err and 5 arguments (should be 5)
+Initial arguments are arg1, arg2, arg3, and arg4.
+Doing a shift of 4 (no error)
+We now have 1 argument, arg1 is ''.
+Doing a shift of 4 and 1 (should be errors)
+Now doing 'unshift 5' (should be an error)
+Cannot shift more than the number of arguments
+Did an unshift ... number of args is 5, should be 5.
+Testing sstat errors
+End of error tests
+
+
+Look at checked out files? n
+Clean? n
+finkbea@cf405-24:/home/phil/public/csci347/testa3$ exit
+exit
+
+Script done on Mon 06 May 2019 10:35:43 PM PDT

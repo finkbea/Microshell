@@ -1,0 +1,280 @@
+Script started on Wed 22 May 2019 07:47:56 AM PDT
+finkbea@CF167-08:~$ cd /home/phil/csc[K[K[Kpublic/csci347/testa4
+finkbea@CF167-08:/home/phil/public/csci347/testa4$ ./try
+Cloning into 'csci347_s19'...
+remote: Enumerating objects: 143, done.[K
+remote: Counting objects: 100% (143/143)   [K
+remote: Counting objects: 100% (143/143), done.[K
+remote: Compressing objects: 100% (71/71), done.[K 
+Resolving deltas: 100% (223/223), done.
+Checking connectivity... done.
+error: pathspec 'a4' did not match any file(s) known to git.
+Grading master branch.
+Making REF
+gcc -c -o expand.o expand.c -g -Wall 
+gcc -c -o builtin.o builtin.c -g -Wall 
+gcc -g -Wall  -o ush ush.o expand.o builtin.o
+
+run tests? (y or n) y
+Running ush
+
+*** Error in `./ush': corrupted size vs. prev_size: 0x0000000000b32740 ***
+======= Backtrace: =========
+/lib/x86_64-linux-gnu/libc.so.6(+0x777e5)[0x7fbbf2f877e5]
+/lib/x86_64-linux-gnu/libc.so.6(+0x7e9dc)[0x7fbbf2f8e9dc]
+/lib/x86_64-linux-gnu/libc.so.6(+0x82246)[0x7fbbf2f92246]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_malloc+0x54)[0x7fbbf2f94184]
+./ush[0x401258]
+./ush[0x401b1e]
+./ush[0x40198f]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7fbbf2f30830]
+./ush[0x401139]
+======= Memory map: ========
+00400000-00404000 r-xp 00000000 00:30 2531805823                         /home/finkbea/347_test_a4/csci347_s19/ush/ush
+00603000-00604000 r--p 00003000 00:30 2531805823                         /home/finkbea/347_test_a4/csci347_s19/ush/ush
+00604000-00605000 rw-p 00004000 00:30 2531805823                         /home/finkbea/347_test_a4/csci347_s19/ush/ush
+00b12000-00b33000 rw-p 00000000 00:00 0                                  [heap]
+7fbbec000000-7fbbec021000 rw-p 00000000 00:00 0 
+7fbbec021000-7fbbf0000000 ---p 00000000 00:00 0 
+7fbbf2cfa000-7fbbf2d10000 r-xp 00000000 08:05 16869796                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fbbf2d10000-7fbbf2f0f000 ---p 00016000 08:05 16869796                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fbbf2f0f000-7fbbf2f10000 rw-p 00015000 08:05 16869796                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fbbf2f10000-7fbbf30d0000 r-xp 00000000 08:05 22197390                   /lib/x86_64-linux-gnu/libc-2.23.so
+7fbbf30d0000-7fbbf32d0000 ---p 001c0000 08:05 22197390                   /lib/x86_64-linux-gnu/libc-2.23.so
+7fbbf32d0000-7fbbf32d4000 r--p 001c0000 08:05 22197390                   /lib/x86_64-linux-gnu/libc-2.23.so
+7fbbf32d4000-7fbbf32d6000 rw-p 001c4000 08:05 22197390                   /lib/x86_64-linux-gnu/libc-2.23.so
+7fbbf32d6000-7fbbf32da000 rw-p 00000000 00:00 0 
+7fbbf32da000-7fbbf3300000 r-xp 00000000 08:05 22197376                   /lib/x86_64-linux-gnu/ld-2.23.so
+7fbbf34cc000-7fbbf34cf000 rw-p 00000000 00:00 0 
+7fbbf34fe000-7fbbf34ff000 rw-p 00000000 00:00 0 
+7fbbf34ff000-7fbbf3500000 r--p 00025000 08:05 22197376                   /lib/x86_64-linux-gnu/ld-2.23.so
+7fbbf3500000-7fbbf3501000 rw-p 00026000 08:05 22197376                   /lib/x86_64-linux-gnu/ld-2.23.so
+7fbbf3501000-7fbbf3502000 rw-p 00000000 00:00 0 
+7ffe9cb70000-7ffe9cc05000 rw-p 00000000 00:00 0                          [stack]
+7ffe9cdb2000-7ffe9cdb5000 r--p 00000000 00:00 0                          [vvar]
+7ffe9cdb5000-7ffe9cdb7000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Files REF and OUT differ
+Script output different!
+Diffs: 
+--- REF	2019-05-22 07:48:12.190690000 -0700
++++ OUT	2019-05-22 07:48:13.743333000 -0700
+@@ -10,65 +10,46 @@
+ error is 1, should be 1!
+ error is 0, should be 0!
+ error is 0, should be 0!
+-MyFile finkbea grp.csci.Students -rw-r--r-- 1 0 Wed Feb 14 00:00:00 2018
+ error is 0, should be 0!
+ error is 1, should be 1!
+ 0 should be 0.
+ 35 should be 35.
+ 127 should be 127.
+-Hangup
+ 129 should be 129 and the previous line should say 'Hangup'.
+ 130 should be 130.
+-Alarm clock
+ 142 should be 142 and the previous line should say 'Alarm clock'.
+-Segmentation fault (core dumped)
+-139 should be 139 and the previous line should say 'Segmentation fault (core dumped)'.
++139 should be 139 and the previous line should say 'Segmentation fault )'.
++MyFile finkbea grp.csci.Students -rw-r--r-- 1 0 Wed Feb 14 00:00:00 2018
+ N is 1.
+-N + 1 is 2
+-Without environment variables that is ... 2
+-Two in one ... 4 and 6
++N + 1 is 
++Without environment variables that is ... 2 
++Two in one ... 4 
+ Testing last character issues.
+ Testing.
+ Testing built-in commands in dollar paren expansions.
+-'?' '13'
++'?' 
+ Q should still be 13 ... Q is 13
+-Environment var R is 'From_echo' and should have something.
+-... 'file finkbea grp.csci.Students -r-xr---w- 1 0 Sun May 1 00:00:00 2005' ...
+-/usr/bin
++Environment var R is '' and should have something.
++... '
++
+ Testing exit values from command expansion
+-true 0 false 1 should be true 0 false 1
++true 
+ Multiple commands ..
+-3280
++
+ Doing a big one ... may need to send ^C ...
+-argc is 19999
+-argv[1] is 012345678
+-argv[19998] is Pass!!!!!
+-Hello There
+-Hello1 There1
+-Hello2 There2
+-Hello3 There3
+-Hello4 There4
+-Hello5 There5
+-Hello6 There6
++file finkbea grp.csci.Students -r-xr---w- 1 0 Sun May  1 00:00:00 2005
++file finkbea grp.csci.Students -r-xr---w- 1 0 Sun May  1 00:00:00 2005
++$(echo $(echo $(echo Hello) $(echo There))) 
++$(echo $(echo $(echo Hello1) $(echo There1))) 
++$(echo $(echo $(echo Hello2) $(echo There2))) 
++$(echo $(echo $(echo Hello3) $(echo There3))) 
++$(echo $(echo $(echo Hello4) $(echo There4))) 
++$(echo $(echo $(echo Hello5) $(echo There5))) 
++$(echo $(echo $(echo Hello6) $(echo There6))) 
+ Simple pipeline tests
+ One Pipe...
+-pass 
+-Two Pipes...
+-pass 
+ End simple pipeline tests
+ 10 Pipes...
+-pass
+ Testing if pipes expand a 2nd time
+ Direct ${FAIL}
+-Piped ${FAIL}
+ Testing if expandion is before piping
+-Pass!
+-Pipe in a command expansion!
+-Pipe in a command expansion ... Pass!
+-cd in a pipe?
+-/home
+-Many pipes and command expansion ...
+-Final value of N is 205
+-Testing large pipe volume
+-8
+-Pass!
+
+See Out file? y
+Out is: -------
+Checking $?
+true's exit value is 0
+false's exit value is 1
+envset's exit value is 0
+envset's error exit value is 1
+N is 1
+error is 1, N is 1
+error is 1, should be 1!
+error is 1, should be 1!
+error is 1, should be 1!
+error is 0, should be 0!
+error is 0, should be 0!
+error is 0, should be 0!
+error is 1, should be 1!
+0 should be 0.
+35 should be 35.
+127 should be 127.
+129 should be 129 and the previous line should say 'Hangup'.
+130 should be 130.
+142 should be 142 and the previous line should say 'Alarm clock'.
+139 should be 139 and the previous line should say 'Segmentation fault )'.
+MyFile finkbea grp.csci.Students -rw-r--r-- 1 0 Wed Feb 14 00:00:00 2018
+N is 1.
+N + 1 is 
+Without environment variables that is ... 2 
+Two in one ... 4 
+Testing last character issues.
+Testing.
+Testing built-in commands in dollar paren expansions.
+'?' 
+Q should still be 13 ... Q is 13
+Environment var R is '' and should have something.
+... '
+
+Testing exit values from command expansion
+true 
+Multiple commands ..
+
+Doing a big one ... may need to send ^C ...
+file finkbea grp.csci.Students -r-xr---w- 1 0 Sun May  1 00:00:00 2005
+file finkbea grp.csci.Students -r-xr---w- 1 0 Sun May  1 00:00:00 2005
+$(echo $(echo $(echo Hello) $(echo There))) 
+$(echo $(echo $(echo Hello1) $(echo There1))) 
+$(echo $(echo $(echo Hello2) $(echo There2))) 
+$(echo $(echo $(echo Hello3) $(echo There3))) 
+$(echo $(echo $(echo Hello4) $(echo There4))) 
+$(echo $(echo $(echo Hello5) $(echo There5))) 
+$(echo $(echo $(echo Hello6) $(echo There6))) 
+Simple pipeline tests
+One Pipe...
+End simple pipeline tests
+10 Pipes...
+Testing if pipes expand a 2nd time
+Direct ${FAIL}
+Testing if expandion is before piping
+---------------
+
+----- ERRS -----
+incorrect number of arguments, follow the format: envset name value
+incorrect number of arguments, follow the format: envunset name
+input a correct directory
+Cannot shift more than the number of arguments
+Cannot shift more than the number of arguments
+Terminated by Hangup
+wait: No such file or directory
+wait: No such file or directory
+Terminated by Alarm clock
+wait: No such file or directory
+Terminated by Unknown signal 139
+ (core dumped)
+wait: No such file or directory
+rm: cannot remove '': No such file or directory
+expr: non-integer argument
+incorrect number of arguments, follow the format: envset name value
+incorrect number of arguments, follow the format: envset name value
+input a correct directory
+expr: syntax error
+/usr/bin/ld: cannot open output file a.out: Permission denied
+collect2: error: ld returned 1 exit status
+cat: '${TOP}/bigfile': No such file or directory
+exec: No such file or directory
+rm: cannot remove 'a.out': No such file or directory
+rm: cannot remove 'a.out': No such file or directory
+exec: No such file or directory
+ush: malloc.c:2394: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.
+bash: line 15: 19773 Aborted                 (core dumped) ./ush ${TOP}/scr4
+exec: No such file or directory
+bash: line 20: 19778 Aborted                 (core dumped) ./ush ${TOP}/scr5
+----------------
+
+Run error tests? y
+Error tests begining
+The next two lines should be parenthesis errors
+Hello 
+exec: No such file or directory
+exec: No such file or directory
+cat: '${TOP}/bigfile': No such file or directory
+argc is 2
+argv[1] is 
+argv[1] is 
+cat: '${TOP}/bigfile': No such file or directory
+cat: '${TOP}/bigfile': No such file or directory
+exec: No such file or directory
+End of error tests
+
+Testing SIGINT ... your shell should not stop running
+You fail SIGINT.
+Finished one SIGINT test, no output should have been printed 
+Now ush will run interactively, you should be able to type sleep 100
+and then hit control-C, sleep should terminate and you should be
+able to type more commands to ush and they should work. Exit the
+shell when done testing sigint
+% ^C^C^C
+% ^C
+% sleep 100
+^Cwait: Success
+% ^C
+% ^C
+% ^C
+% sleep 100
+^^M^Cwait: Success
+% ^Z
+[1]+  Stopped                 ./try
+finkbea@CF167-08:/home/phil/public/csci347/testa4$ exit
+exit
+There are stopped jobs.
+finkbea@CF167-08:/home/phil/public/csci347/testa4$ exit
+exit
+
+Script done on Wed 22 May 2019 07:49:46 AM PDT
